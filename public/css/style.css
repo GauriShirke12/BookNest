@@ -1,0 +1,168 @@
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .container{
+    flex: 1;
+  }
+
+.navbar {
+ height: 5rem;
+ background-color: white;
+}
+
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #000000 !important;
+}
+
+/* card */
+
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text p{
+    font-weight : 400 !important;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+
+/* Card Effect */
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* New Page */
+
+.add-btn{
+    background-color:  #fe424d !important;
+    border: none !important;
+}
+
+/* edit page */
+
+.edit-btn{
+    background-color:  #fe424d !important;
+    border: none !important;
+}
+
+/* Show page */
+
+.show-img{
+    height: 30vh;
+}
+
+.btns{
+    display: flex;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+.star-rating {
+    direction: rtl;
+    font-size: 1.5rem;
+    display: inline-flex;
+  }
+  
+  .star-rating input[type="radio"] {
+    display: none;
+  }
+  
+  .star-rating label {
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .star-rating input[type="radio"]:checked ~ label,
+  .star-rating label:hover,
+  .star-rating label:hover ~ label {
+    color: #ffc107; /* gold/yellow */
+  }
+  
+/* Style for the actions container */
+.listing-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+/* Style for the edit button */
+.edit-btn {
+    background-color: #fe424d;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.edit-btn:hover {
+    background-color: #e3353e;
+}
+
+/* Style for the delete form and button */
+.delete-form {
+    margin: 0;
+}
+
+.delete-btn {
+    background-color: #d9534f;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #c9302c;
+}
+
+.delete-btn:focus {
+    outline: none;
+}
+
+/* Optional: add some spacing and hover effects to the form */
+.delete-form:hover {
+    opacity: 0.8;
+}
+
