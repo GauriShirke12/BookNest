@@ -161,7 +161,7 @@ body {
     outline: none;
 }
 
-/* Optional: add some spacing and hover effects to the form */
+
 .delete-form:hover {
     opacity: 0.8;
 }
